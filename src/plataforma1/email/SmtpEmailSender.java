@@ -82,11 +82,11 @@ public class SmtpEmailSender implements EmailSender {
 
             properties.put("mail.smtp.host", emailConfig.getSmtpHost());
             properties.put("mail.smtp.port", emailConfig.getSmtpPort());
+            properties.put("mail.smtp.auth", emailConfig.isSmtpAuth());
             if (emailConfig.isUseSSL()) {
                 properties.put("mail.smtp.socketFactory.class", SSL_FACTORY);
-                properties.put("mail.smtp.auth", emailConfig.isSmtpAuth());
+                properties.put("mail.smtp.socketFactory.port", emailConfig.getSmtpPort());
             } else {
-                properties.put("mail.smtp.auth", emailConfig.isSmtpAuth());
                 properties.put("mail.smtp.auth.plain.disable", emailConfig.isDisableSmtpPlainAuth());
             }
             properties.put("mail.smtp.ssl.trust", "*");
