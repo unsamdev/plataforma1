@@ -14,7 +14,7 @@ public class Semantic2_3_1ResourceReference extends JavaScriptResourceReference 
     private static final Semantic2_3_1ResourceReference instance = new Semantic2_3_1ResourceReference();
 
     private Semantic2_3_1ResourceReference() {
-        super(SemanticResourceReference.class, "resources2.3.1/semantic.min.js");
+        super(Semantic2_3_1ResourceReference.class, "resources2.3.1/semantic.min.js");
     }
 
     public static Semantic2_3_1ResourceReference get() {
