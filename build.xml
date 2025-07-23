@@ -58,86 +58,86 @@
 
     <!-- JDK definitions -->
 
-    <property name="jdk.bin.21" value="${jdk.home.21}/bin"/>
-    <path id="jdk.classpath.21">
-        <fileset dir="${jdk.home.21}">
-            <include name="../jdk-21!/java.base"/>
-            <include name="../jdk-21!/java.compiler"/>
-            <include name="../jdk-21!/java.datatransfer"/>
-            <include name="../jdk-21!/java.desktop"/>
-            <include name="../jdk-21!/java.instrument"/>
-            <include name="../jdk-21!/java.logging"/>
-            <include name="../jdk-21!/java.management"/>
-            <include name="../jdk-21!/java.management.rmi"/>
-            <include name="../jdk-21!/java.naming"/>
-            <include name="../jdk-21!/java.net.http"/>
-            <include name="../jdk-21!/java.prefs"/>
-            <include name="../jdk-21!/java.rmi"/>
-            <include name="../jdk-21!/java.scripting"/>
-            <include name="../jdk-21!/java.se"/>
-            <include name="../jdk-21!/java.security.jgss"/>
-            <include name="../jdk-21!/java.security.sasl"/>
-            <include name="../jdk-21!/java.smartcardio"/>
-            <include name="../jdk-21!/java.sql"/>
-            <include name="../jdk-21!/java.sql.rowset"/>
-            <include name="../jdk-21!/java.transaction.xa"/>
-            <include name="../jdk-21!/java.xml"/>
-            <include name="../jdk-21!/java.xml.crypto"/>
-            <include name="../jdk-21!/jdk.accessibility"/>
-            <include name="../jdk-21!/jdk.attach"/>
-            <include name="../jdk-21!/jdk.charsets"/>
-            <include name="../jdk-21!/jdk.compiler"/>
-            <include name="../jdk-21!/jdk.crypto.cryptoki"/>
-            <include name="../jdk-21!/jdk.crypto.ec"/>
-            <include name="../jdk-21!/jdk.crypto.mscapi"/>
-            <include name="../jdk-21!/jdk.dynalink"/>
-            <include name="../jdk-21!/jdk.editpad"/>
-            <include name="../jdk-21!/jdk.hotspot.agent"/>
-            <include name="../jdk-21!/jdk.httpserver"/>
-            <include name="../jdk-21!/jdk.incubator.foreign"/>
-            <include name="../jdk-21!/jdk.incubator.vector"/>
-            <include name="../jdk-21!/jdk.internal.ed"/>
-            <include name="../jdk-21!/jdk.internal.jvmstat"/>
-            <include name="../jdk-21!/jdk.internal.le"/>
-            <include name="../jdk-21!/jdk.internal.opt"/>
-            <include name="../jdk-21!/jdk.internal.vm.ci"/>
-            <include name="../jdk-21!/jdk.internal.vm.compiler"/>
-            <include name="../jdk-21!/jdk.internal.vm.compiler.management"/>
-            <include name="../jdk-21!/jdk.jartool"/>
-            <include name="../jdk-21!/jdk.javadoc"/>
-            <include name="../jdk-21!/jdk.jcmd"/>
-            <include name="../jdk-21!/jdk.jconsole"/>
-            <include name="../jdk-21!/jdk.jdeps"/>
-            <include name="../jdk-21!/jdk.jdi"/>
-            <include name="../jdk-21!/jdk.jdwp.agent"/>
-            <include name="../jdk-21!/jdk.jfr"/>
-            <include name="../jdk-21!/jdk.jlink"/>
-            <include name="../jdk-21!/jdk.jpackage"/>
-            <include name="../jdk-21!/jdk.jshell"/>
-            <include name="../jdk-21!/jdk.jsobject"/>
-            <include name="../jdk-21!/jdk.jstatd"/>
-            <include name="../jdk-21!/jdk.localedata"/>
-            <include name="../jdk-21!/jdk.management"/>
-            <include name="../jdk-21!/jdk.management.agent"/>
-            <include name="../jdk-21!/jdk.management.jfr"/>
-            <include name="../jdk-21!/jdk.naming.dns"/>
-            <include name="../jdk-21!/jdk.naming.rmi"/>
-            <include name="../jdk-21!/jdk.net"/>
-            <include name="../jdk-21!/jdk.nio.mapmode"/>
-            <include name="../jdk-21!/jdk.random"/>
-            <include name="../jdk-21!/jdk.sctp"/>
-            <include name="../jdk-21!/jdk.security.auth"/>
-            <include name="../jdk-21!/jdk.security.jgss"/>
-            <include name="../jdk-21!/jdk.unsupported"/>
-            <include name="../jdk-21!/jdk.unsupported.desktop"/>
-            <include name="../jdk-21!/jdk.xml.dom"/>
-            <include name="../jdk-21!/jdk.zipfs"/>
+    <property name="jdk.bin.17" value="${jdk.home.17}/bin"/>
+    <path id="jdk.classpath.17">
+        <fileset dir="${jdk.home.17}">
+            <include name="../jdk-17.0.3.1!/java.base"/>
+            <include name="../jdk-17.0.3.1!/java.compiler"/>
+            <include name="../jdk-17.0.3.1!/java.datatransfer"/>
+            <include name="../jdk-17.0.3.1!/java.desktop"/>
+            <include name="../jdk-17.0.3.1!/java.instrument"/>
+            <include name="../jdk-17.0.3.1!/java.logging"/>
+            <include name="../jdk-17.0.3.1!/java.management"/>
+            <include name="../jdk-17.0.3.1!/java.management.rmi"/>
+            <include name="../jdk-17.0.3.1!/java.naming"/>
+            <include name="../jdk-17.0.3.1!/java.net.http"/>
+            <include name="../jdk-17.0.3.1!/java.prefs"/>
+            <include name="../jdk-17.0.3.1!/java.rmi"/>
+            <include name="../jdk-17.0.3.1!/java.scripting"/>
+            <include name="../jdk-17.0.3.1!/java.se"/>
+            <include name="../jdk-17.0.3.1!/java.security.jgss"/>
+            <include name="../jdk-17.0.3.1!/java.security.sasl"/>
+            <include name="../jdk-17.0.3.1!/java.smartcardio"/>
+            <include name="../jdk-17.0.3.1!/java.sql"/>
+            <include name="../jdk-17.0.3.1!/java.sql.rowset"/>
+            <include name="../jdk-17.0.3.1!/java.transaction.xa"/>
+            <include name="../jdk-17.0.3.1!/java.xml"/>
+            <include name="../jdk-17.0.3.1!/java.xml.crypto"/>
+            <include name="../jdk-17.0.3.1!/jdk.accessibility"/>
+            <include name="../jdk-17.0.3.1!/jdk.attach"/>
+            <include name="../jdk-17.0.3.1!/jdk.charsets"/>
+            <include name="../jdk-17.0.3.1!/jdk.compiler"/>
+            <include name="../jdk-17.0.3.1!/jdk.crypto.cryptoki"/>
+            <include name="../jdk-17.0.3.1!/jdk.crypto.ec"/>
+            <include name="../jdk-17.0.3.1!/jdk.crypto.mscapi"/>
+            <include name="../jdk-17.0.3.1!/jdk.dynalink"/>
+            <include name="../jdk-17.0.3.1!/jdk.editpad"/>
+            <include name="../jdk-17.0.3.1!/jdk.hotspot.agent"/>
+            <include name="../jdk-17.0.3.1!/jdk.httpserver"/>
+            <include name="../jdk-17.0.3.1!/jdk.incubator.foreign"/>
+            <include name="../jdk-17.0.3.1!/jdk.incubator.vector"/>
+            <include name="../jdk-17.0.3.1!/jdk.internal.ed"/>
+            <include name="../jdk-17.0.3.1!/jdk.internal.jvmstat"/>
+            <include name="../jdk-17.0.3.1!/jdk.internal.le"/>
+            <include name="../jdk-17.0.3.1!/jdk.internal.opt"/>
+            <include name="../jdk-17.0.3.1!/jdk.internal.vm.ci"/>
+            <include name="../jdk-17.0.3.1!/jdk.internal.vm.compiler"/>
+            <include name="../jdk-17.0.3.1!/jdk.internal.vm.compiler.management"/>
+            <include name="../jdk-17.0.3.1!/jdk.jartool"/>
+            <include name="../jdk-17.0.3.1!/jdk.javadoc"/>
+            <include name="../jdk-17.0.3.1!/jdk.jcmd"/>
+            <include name="../jdk-17.0.3.1!/jdk.jconsole"/>
+            <include name="../jdk-17.0.3.1!/jdk.jdeps"/>
+            <include name="../jdk-17.0.3.1!/jdk.jdi"/>
+            <include name="../jdk-17.0.3.1!/jdk.jdwp.agent"/>
+            <include name="../jdk-17.0.3.1!/jdk.jfr"/>
+            <include name="../jdk-17.0.3.1!/jdk.jlink"/>
+            <include name="../jdk-17.0.3.1!/jdk.jpackage"/>
+            <include name="../jdk-17.0.3.1!/jdk.jshell"/>
+            <include name="../jdk-17.0.3.1!/jdk.jsobject"/>
+            <include name="../jdk-17.0.3.1!/jdk.jstatd"/>
+            <include name="../jdk-17.0.3.1!/jdk.localedata"/>
+            <include name="../jdk-17.0.3.1!/jdk.management"/>
+            <include name="../jdk-17.0.3.1!/jdk.management.agent"/>
+            <include name="../jdk-17.0.3.1!/jdk.management.jfr"/>
+            <include name="../jdk-17.0.3.1!/jdk.naming.dns"/>
+            <include name="../jdk-17.0.3.1!/jdk.naming.rmi"/>
+            <include name="../jdk-17.0.3.1!/jdk.net"/>
+            <include name="../jdk-17.0.3.1!/jdk.nio.mapmode"/>
+            <include name="../jdk-17.0.3.1!/jdk.random"/>
+            <include name="../jdk-17.0.3.1!/jdk.sctp"/>
+            <include name="../jdk-17.0.3.1!/jdk.security.auth"/>
+            <include name="../jdk-17.0.3.1!/jdk.security.jgss"/>
+            <include name="../jdk-17.0.3.1!/jdk.unsupported"/>
+            <include name="../jdk-17.0.3.1!/jdk.unsupported.desktop"/>
+            <include name="../jdk-17.0.3.1!/jdk.xml.dom"/>
+            <include name="../jdk-17.0.3.1!/jdk.zipfs"/>
         </fileset>
     </path>
 
-    <property name="project.jdk.home" value="${jdk.home.21}"/>
-    <property name="project.jdk.bin" value="${jdk.bin.21}"/>
-    <property name="project.jdk.classpath" value="jdk.classpath.21"/>
+    <property name="project.jdk.home" value="${jdk.home.17}"/>
+    <property name="project.jdk.bin" value="${jdk.bin.17}"/>
+    <property name="project.jdk.classpath" value="jdk.classpath.17"/>
 
 
     <!-- Project Libraries -->
