@@ -27,7 +27,6 @@
       <root url="file://$PROJECT_DIR$/../lib/wicket-jquery/10.0.0" />
       <root url="file://$PROJECT_DIR$/../lib/wicket-select2/10.0.0" />
       <root url="file://$PROJECT_DIR$/../lib/wicket/10.0.0" />
-      <root url="jar://$PROJECT_DIR$/../lib/jetty/12.0.1/jetty-util-12.0.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

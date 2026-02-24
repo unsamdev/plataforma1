@@ -12,6 +12,6 @@ public class JQuery3_1_1ResourceReference extends JavaScriptResourceReference {
     }
 
     protected JQuery3_1_1ResourceReference() {
-        super(JQuery3_1_1ResourceReference.class, "jquery-3.1.1.min.js");
+        super(JQuery3_1_1ResourceReference.class, VERSION_1);
     }
 }

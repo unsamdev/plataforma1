@@ -20,7 +20,7 @@ public class NotifierBehavior extends AbstractAjaxBehavior {
     @Override
     public void renderHead(Component component, IHeaderResponse response) {
         super.renderHead(component, response);
-        response.render(JavaScriptReferenceHeaderItem.forReference(Semantic2_3_1ResourceReference.get()));
+        response.render(JavaScriptReferenceHeaderItem.forReference(Fomantic2_9_4ResourceReference.get()));
 
         markupId = getComponent().getMarkupId();
 
