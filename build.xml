@@ -164,7 +164,7 @@
         <fileset dir="${basedir}/../lib/commons-imaging/1.0">
             <patternset refid="library.patterns"/>
         </fileset>
-        <fileset dir="${basedir}/../lib/commons-io/2.13.0">
+        <fileset dir="${basedir}/../lib/commons-io/2.19.0">
             <patternset refid="library.patterns"/>
         </fileset>
         <fileset dir="${basedir}/../lib/derby/10.16">
@@ -197,13 +197,19 @@
         <fileset dir="${basedir}/../lib/jetty/12.0.1">
             <patternset refid="library.patterns"/>
         </fileset>
-        <fileset dir="${basedir}/../lib/joda-time/2.12.5">
+        <fileset dir="${basedir}/../lib/joda-time/2.13.0">
             <patternset refid="library.patterns"/>
         </fileset>
         <fileset dir="${basedir}/../lib/json/20230618">
             <patternset refid="library.patterns"/>
         </fileset>
-        <fileset dir="${basedir}/../lib/openjson/1.0.12">
+        <fileset dir="${basedir}/../lib/mockito/5.14.2">
+            <patternset refid="library.patterns"/>
+        </fileset>
+        <fileset dir="${basedir}/../lib/objenesis/3.3">
+            <patternset refid="library.patterns"/>
+        </fileset>
+        <fileset dir="${basedir}/../lib/openjson/1.0.13">
             <patternset refid="library.patterns"/>
         </fileset>
         <fileset dir="${basedir}/../lib/slf4j/2.0.9">
@@ -212,13 +218,13 @@
         <fileset dir="${basedir}/../lib/weld/5.1.1">
             <patternset refid="library.patterns"/>
         </fileset>
-        <fileset dir="${basedir}/../lib/wicket-jquery/10.0.0">
+        <fileset dir="${basedir}/../lib/wicket-jquery/10.3.0">
             <patternset refid="library.patterns"/>
         </fileset>
-        <fileset dir="${basedir}/../lib/wicket-select2/10.0.0">
+        <fileset dir="${basedir}/../lib/wicket-select2/10.3.0">
             <patternset refid="library.patterns"/>
         </fileset>
-        <fileset dir="${basedir}/../lib/wicket/10.0.0">
+        <fileset dir="${basedir}/../lib/wicket/10.3.0">
             <patternset refid="library.patterns"/>
         </fileset>
     </path>
